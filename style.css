@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    
+}
+.carousel .card{
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.carousel .card-1{
+    background-color: red;
+}
+.carousel .card-2{
+    background-color: greenyellow;
+}
+.carousel .card-3{
+    background-color: green;
+}
+.carousel .card-4{
+    background-color: blueviolet;
+}
+.carousel .card-5{
+    background-color: blue;
+}
+.carousel .card-6{
+    background-color: skyblue;
+}
+.carousel .card-7{
+    background-color: burlywood;
+}
+.owl-dot{
+    text-align: center;
+}
+.owl-dots{
+    height: 10px;
+    width: 25px;
+    background-color:  green;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+

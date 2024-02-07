@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>owl</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarouse
+l2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarouse
+l2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+            <div class="card card-1">A</div>
+            <div class="card card-2">B</div>
+            <div class="card card-3">C</div>
+            <div class="card card-4">D</div>
+            <div class="card card-5">E</div>
+            <div class="card card-6">F</div>
+            <div class="card card-7">G</div>
+        </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(".carousel").owlCarousel({
+            margin:10,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause: true,
+            dots:true,
+            stagePadding:50,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:2,
+                    nav:false
+            },
+                1000:{
+                    items:3,
+                    nav:false
+                },
+            }
+        });
+    </script>
+</body>
+</html>
